@@ -30,6 +30,27 @@ To test the installation, run
 ```
 sharp --help
 ```
+### Quickstart
+
+Using the "uv" will help get things running more easily. 
+
+Install uv: https://docs.astral.sh/uv/getting-started/installation/
+
+Then perform these steps:
+
+```
+uv venv
+uv python install 3.13
+uv venv --python 3.11
+uv pip compile requirements.in --universal --output-file
+requirements.txt
+uv pip sync docs/requirements.txt
+. ./.venv/bin/activate
+```
+
+Note: most of these commands are explained clearly in the uv doc: https://docs.astral.sh/uv/#uv
+
+The commands to run sharp are explained in the next section.
 
 ## Using the CLI
 
