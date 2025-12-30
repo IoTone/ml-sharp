@@ -44,7 +44,7 @@ uv python install 3.13
 uv venv --python 3.11
 uv pip compile requirements.in --universal --output-file
 requirements.txt
-uv pip sync docs/requirements.txt
+uv pip sync requirements.txt
 . ./.venv/bin/activate
 ```
 
