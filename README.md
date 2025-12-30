@@ -74,7 +74,18 @@ Subsequent uses, you won't need to reinstall python, so just activate your venv.
 
 Note: most of these commands are explained clearly in the uv doc: https://docs.astral.sh/uv/#uv
 
-The commands to run sharp are explained in the next section.
+To verify sharp is installed, type: which sharp
+
+You should see a path to the command.  If so, jump to the simple example.
+
+### A simple example
+
+For more detailed explanation, see below.  To quickly get started using this, try this quick sample below.
+
+```
+ wget -O _DSC2913.jpg https://images.squarespace-cdn.com/content/v1/6101f29034216140b662ed88/0b0c1641-e162-4add-9779-9640564ab1c1/_DSC2913.jpg\?format\=1000w
+ sharp predict -i _DSC2913.jpg -o .
+```
 
 ## Using the CLI
 
