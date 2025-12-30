@@ -32,11 +32,24 @@ sharp --help
 ```
 ### Quickstart
 
+Then perform these one time steps:
+
 Using the "uv" will help get things running more easily. 
 
 Install uv: https://docs.astral.sh/uv/getting-started/installation/
 
-Then perform these one time steps:
+
+Download this source repository first, or clone it.
+
+```
+cd ~/Desktop
+wget  https://github.com/IoTone/ml-sharp/archive/refs/heads/main.zip
+unzip main.zip 
+cd ml-sharp-main
+```
+
+
+Then setup the project build once:
 
 ```
 uv venv
