@@ -30,16 +30,19 @@ To test the installation, run
 ```
 sharp --help
 ```
-### Quickstart
+## Quickstart
 
 Then perform these one time steps:
 
+
+### UV installation
 Using the "uv" will help get things running more easily. 
 
 Install uv: https://docs.astral.sh/uv/getting-started/installation/
 
+### Download the source
 
-Download this source repository first, or clone it.
+Download this source repository first, or clone it.  Note: you can use the original Apple repository.
 
 ```
 cd ~/Desktop
@@ -48,8 +51,9 @@ unzip main.zip
 cd ml-sharp-main
 ```
 
+### Build the project
 
-Then setup the project build once:
+Then setup the project build once.  Note, you must do this from the directory where the ml-sharp directory lives.
 
 ```
 uv venv
@@ -60,7 +64,9 @@ uv pip sync requirements.txt
 . ./.venv/bin/activate
 ```
 
-Subsequent uses, you won't need to reinstall python, so just activate your venv:
+### Activate the environment
+
+Subsequent uses, you won't need to reinstall python, so just activate your venv.  Note, you must do this from the directory where the ml-sharp directory lives.
 
 ```
 . ./.venv/bin/activate
