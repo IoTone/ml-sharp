@@ -36,15 +36,20 @@ Using the "uv" will help get things running more easily.
 
 Install uv: https://docs.astral.sh/uv/getting-started/installation/
 
-Then perform these steps:
+Then perform these one time steps:
 
 ```
 uv venv
 uv python install 3.13
 uv venv --python 3.11
-uv pip compile requirements.in --universal --output-file
-requirements.txt
+uv pip compile requirements.in --universal --output-file requirements.txt
 uv pip sync requirements.txt
+. ./.venv/bin/activate
+```
+
+Subsequent uses, you won't need to reinstall python, so just activate your venv:
+
+```
 . ./.venv/bin/activate
 ```
 
