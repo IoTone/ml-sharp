@@ -32,17 +32,15 @@ sharp --help
 ```
 ## Quickstart
 
-Then perform these one time steps:
-
-
 ### UV installation
-Using the "uv" will help get things running more easily. 
+
+(One Time Setup) Using the "uv" will help get things running more easily. 
 
 Install uv: https://docs.astral.sh/uv/getting-started/installation/
 
 ### Download the source
 
-Download this source repository first, or clone it.  Note: you can use the original Apple repository.
+(One Time Setup) Download this source repository first, or clone it.  Note: you can use the original Apple repository.
 
 ```
 cd ~/Desktop
@@ -53,7 +51,7 @@ cd ml-sharp-main
 
 ### Build the project
 
-Then setup the project build once.  Note, you must do this from the directory where the ml-sharp directory lives.
+Then setup the project build any time you update the code.  Note, you must do this from the directory where the ml-sharp directory lives.
 
 ```
 uv venv
@@ -66,7 +64,7 @@ uv pip sync requirements.txt
 
 ### Activate the environment
 
-Subsequent uses, you won't need to reinstall python, so just activate your venv.  Note, you must do this from the directory where the ml-sharp directory lives.
+Subsequent uses, you won't need to reinstall python libraries or python, so just activate your venv.  Note, you must do this from the directory where the ml-sharp directory lives.
 
 ```
 . ./.venv/bin/activate
@@ -78,9 +76,9 @@ To verify sharp is installed, type: which sharp
 
 You should see a path to the command.  If so, jump to the simple example.
 
-### A simple example
+### A simple example usage
 
-For more detailed explanation, see below.  To quickly get started using this, try this quick sample below.
+To quickly get started using this, try this quick sample below.
 
 ```
  wget -O _DSC2913.jpg https://images.squarespace-cdn.com/content/v1/6101f29034216140b662ed88/0b0c1641-e162-4add-9779-9640564ab1c1/_DSC2913.jpg\?format\=1000w
